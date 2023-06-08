@@ -8,44 +8,35 @@ Before getting started, ensure that you have the following prerequisites install
     Python (version 3.6 or higher)
     Django (version 3.0 or higher)
     Django REST Framework (version 3.12 or higher)
+    MySQL
 
 Installation
 
-    Clone the repository to your local machine using the following command:
+Clone the repository to your local machine using the following command:
 
-    bash
-
-git clone https://github.com/Renia274/Django_with_rest.git
+    git clone https://github.com/Renia274/Django_with_rest.git
 
 Change into the project directory:
-
-bash
 
 cd Django_with_rest
 
 Create a virtual environment to isolate the project dependencies:
 
-bash
-
 python3 -m venv env
 
 Activate the virtual environment:
 
-    For macOS/Linux:
+For macOS/Linux:
 
-    bash
-
-source env/bin/activate
+    source env/bin/activate
 
 For Windows:
-
-bash
 
     .\env\Scripts\activate
 
 Install the project dependencies:
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 Run the database migrations:
 
@@ -59,9 +50,7 @@ To start the Django development server and access the API endpoints, follow thes
 
         For macOS/Linux:
 
-        bash
-
-source env/bin/activate
+            source env/bin/activate
 
 For Windows:
 
@@ -98,12 +87,8 @@ source env/bin/activate
 
 For Windows:
 
-bash
-
     .\env\Scripts\activate
 
 Run the tests using the following command:
 
-bash
-
-python manage.py test
+    python manage.py test
