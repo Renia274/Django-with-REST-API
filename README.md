@@ -54,8 +54,6 @@ To start the Django development server and access the API endpoints, follow thes
 
 For Windows:
 
-bash
-
     .\env\Scripts\activate
 
 Start the development server:
@@ -81,9 +79,7 @@ To run the test suite for this project, follow these steps:
 
         For macOS/Linux:
 
-        bash
-
-source env/bin/activate
+            source env/bin/activate
 
 For Windows:
 
