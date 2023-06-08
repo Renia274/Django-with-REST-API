@@ -46,11 +46,11 @@ Usage
 
 To start the Django development server and access the API endpoints, follow these steps:
 
-    Activate the virtual environment if it's not already activated:
+ Activate the virtual environment if it's not already activated:
 
-        For macOS/Linux:
+ For macOS/Linux:
 
-            source env/bin/activate
+    source env/bin/activate
 
 For Windows:
 
@@ -75,11 +75,11 @@ Testing
 
 To run the test suite for this project, follow these steps:
 
-    Activate the virtual environment if it's not already activated:
+ Activate the virtual environment if it's not already activated:
 
-        For macOS/Linux:
+  For macOS/Linux:
 
-            source env/bin/activate
+    source env/bin/activate
 
 For Windows:
 
