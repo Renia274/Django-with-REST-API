@@ -1,5 +1,6 @@
 USE reniadb;
 
+-CREATE
 CREATE TABLE categories_category (
     id INT PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(100) NOT NULL,
@@ -14,3 +15,12 @@ CREATE TABLE products_product (
     description TEXT,
     FOREIGN KEY (category_id) REFERENCES categories_category(id)
 );
+
+-INSERT DATA TO TABLES
+INSERT INTO categories_category (id,name, description)
+VALUES (1,'Food', 'snack')
+
+INSERT INTO products_product (id, name, price,category_id ,description)
+VALUES (1, 'lays', 1.25, 1,'potato chips with salt');
+
+
