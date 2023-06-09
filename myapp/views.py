@@ -16,4 +16,7 @@ class ProductViewSet(viewsets.ModelViewSet):
 
 
 def home_view(request):
+    # This view function handles the request for the home page
+    # and returns a simple HTTP response with a welcome message
     return HttpResponse("Welcome to the home page!")
+
