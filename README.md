@@ -1,6 +1,7 @@
 Django with REST API
 
 This is a repository that demonstrates how to build a Django application with a RESTful API. It provides a basic setup for creating API endpoints, handling requests, and interacting with a database using Django's ORM.
+
 Prerequisites
 
 Before getting started, ensure that you have the following prerequisites installed on your machine:
