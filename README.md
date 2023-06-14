@@ -19,7 +19,7 @@ Clone the repository to your local machine using the following command:
 
 Change into the project directory:
 
-cd Django_with_rest
+    cd Django_with_rest
 
 Create a virtual environment to isolate the project dependencies:
 
@@ -47,7 +47,7 @@ Usage
 
 To start the Django development server and access the API endpoints, follow these steps:
 
- Activate the virtual environment if it's not already activated:
+Activate the virtual environment if it's not already activated:
 
  For macOS/Linux:
 
@@ -71,7 +71,6 @@ This project provides the following API endpoints:
     /api/categories/: Endpoint for creating and retrieving categories.
     /api/products/{id}/: Endpoint for creating and retrieving categories.
   
-
 Testing
 
 To run the test suite for this project, follow these steps:
