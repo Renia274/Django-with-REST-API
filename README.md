@@ -10,6 +10,7 @@ Before getting started, ensure that you have the following prerequisites install
     Django (version 3.0 or higher)
     Django REST Framework (version 3.12 or higher)
     MySQL
+    Visual Studio Code
 
 Installation
 
