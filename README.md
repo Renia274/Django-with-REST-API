@@ -23,7 +23,7 @@ cd Django_with_rest
 
 Create a virtual environment to isolate the project dependencies:
 
-python3 -m venv env
+    python3 -m venv env
 
 Activate the virtual environment:
 
